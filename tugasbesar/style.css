@@ -1,0 +1,84 @@
+/* Body styling */
+.body {
+    margin: 0; /* Menghapus margin default pada body */
+    background-color: #f0f4f8; /* Memberikan warna latar abu-abu kebiruan */
+}
+
+/* Background styling */
+.background {
+    height: 500px; /* Mengatur tinggi elemen background */
+    background-image: url('back2.jpg'); /* Menentukan gambar latar */
+    background-size: cover; /* Membuat gambar menutupi seluruh area background */
+    background-position: center; /* Memposisikan gambar di tengah */
+    background-repeat: no-repeat; /* Mencegah gambar diulang */
+    color: white; /* Warna teks yang ditampilkan pada background */
+    display: flex; /* Menggunakan flexbox untuk pengaturan layout */
+    justify-content: center; /* Memposisikan konten di tengah horizontal */
+    align-items: center; /* Memposisikan konten di tengah vertikal */
+}
+
+/* penjelas styling */
+.penjelas {
+    display: grid; /* Menggunakan grid untuk tata letak */
+    grid-template-columns: repeat(5, 1fr); /* Membuat 5 kolom dengan lebar sama */
+    gap: 20px; /* Memberikan jarak antar elemen grid */
+    padding: 20px; /* Memberikan padding di dalam container */
+    max-width: 1200px; /* Menentukan lebar maksimum container */
+    margin: 0 auto; /* Menyelaraskan container di tengah halaman */
+}
+
+
+.skincare {
+    background-color: #ffffff; /* Memberikan warna latar belakang putih untuk elemen dengan kelas 'skincare'. */
+    border-radius: 15px; /* Membuat sudut elemen menjadi melengkung dengan radius 15px. */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan lembut di sekitar elemen dengan sedikit offset. */
+    text-align: center; /* Menyelaraskan teks di dalam elemen ke tengah secara horizontal. */
+    padding: 20px; /* Memberikan jarak 20px di dalam elemen dari tepi ke konten. */
+    position: relative; /* Mengatur posisi elemen menjadi relatif terhadap posisinya yang normal. */
+}
+.skincare img {
+    width: 80px; /* Mengatur lebar gambar menjadi 80px. */
+    height: 80px; /* Mengatur tinggi gambar menjadi 80px. */
+}
+
+
+.makeup{
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+.makeup img{
+    width: 80px;
+    height: 80px; 
+}
+
+
+.rambut{
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+.rambut img{
+    width: 80px;
+    height: 80px; 
+}
+
+
+.kontak{
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+.kontak img{
+    width: 80px;
+    height: 80px; 
+}
